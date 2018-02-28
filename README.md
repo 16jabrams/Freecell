@@ -5,11 +5,14 @@ How to play the game:
 - Input into the console the move you want to make by writing the current pile of the card (the name is the same as how it is displayed), its index (from left to right and it must be the card at the end of the pile unless you have cards in order at the end of the pile), and the destination pile
 - For example: C8 6 O3 moves the outermost card in the 8th cascade pile to the 3rd open pile
 - If a move is invalid you will be alerted and prompted to input again the entire move, or the missing part of the input if part is correct
+- Use q to quit the game
 
 How to run the game in IntelliJ IDEA:
 - Download the code as a zip file
 - Create a new project from existing sources and choose this zip file as the source
-- 
+- Click on one of the JUnit tests in one of the test files in the test source and then red exclamation point to import the JUnit4 tests into the external libraries
+- Navigate to the FreecellMain file in the package explorer, located in the the src/cs3500/hw03 folder
+- Run the FreecellMain class to start the game in the console
 
  As provided by our course website, the description of the rules of freecell this game follows is:
 
